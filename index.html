@@ -1,0 +1,302 @@
+<html>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+           background-color: rgb(60, 52, 52);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .navar {
+            display: flex;
+            position: sticky;
+            top: 0;
+        }
+
+        .background {
+            background: rgb(166, 158, 105) url('C:/Users/Amit/Pictures/backgound2.jpv.jpeg');
+            background-size: cover;
+            background-blend-mode: darken;
+            width: 300rem;
+
+        }
+
+        .logo img {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            border: solid;
+            border-color: white;
+
+        }
+
+
+
+        .navar ul {
+            list-style: none;
+            display: flex;
+
+
+        }
+
+        .navar li {
+            margin: 20px;
+            list-style: none;
+
+        }
+
+        .navar li a {
+            text-decoration: none;
+            color: rgb(15, 78, 224);
+        }
+
+        .rightnav {
+            border-radius: 20px;
+            border: solid;
+            background-color: white;
+        }
+
+        .secound {
+            display: flex;
+            width: 65.2rem;
+            margin: 0;
+            padding: 150px;
+        }
+
+        .secoundleft {
+            color: white;
+            margin-left: 130px;
+        }
+
+        .secoundimg {
+            margin-right: 20rem;
+        }
+
+        .secoundimg img {
+            border-radius: 300px;
+            margin: 0;
+            border: solid;
+
+        }
+
+        .rightnav input {
+            flex: 1;
+            border: none;
+            outline: none;
+            background: transparent;
+            padding: 5px;
+            margin-left: 10px;
+            font-size: 15px;
+        }
+
+        .btn_first {
+            border: none;
+            outline: none;
+            background-color: rgb(215, 198, 231);
+            padding: 7px;
+            border-radius: 20px;
+            width: 60px;
+        }
+
+        .btn_first:hover {
+            color: white;
+            background-color: blue;
+            font-size: 15px;
+        }
+
+        .navar ul li a:hover {
+            color: white;
+            font-size: 20px;
+        }
+
+        .text_small {
+            font-size: 18px;
+            margin-bottom: 10px;
+            width: 60%;
+        }
+
+        .btn_secound {
+
+            padding: 6px;
+            border: 2px solid white;
+            border-radius: 15px;
+            font-size: 15px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn_third {
+            margin-left: 15px;
+            padding: 6px;
+            border: 2px solid white;
+            border-radius: 15px;
+            font-size: 15px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn_secound:hover {
+            color: white;
+            background-color: blue;
+            font-size: 17px;
+            border-color: blue;
+        }
+
+        .btn_third:hover {
+            color: white;
+            background-color: blue;
+            border-color: blue;
+            font-size: 17px;
+        }
+
+        .secoundpara {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+            padding: 50px;
+        }
+        .secoundpararight {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 80%;
+            margin: auto;
+            padding: 50px;
+            flex-direction: row-reverse;
+        }
+        .para {
+            padding-right: 100px;
+        }
+
+        .para2 {
+            padding-left: 100px;
+        }
+        .thirdimg img {
+            height: 17rem;
+            width: 18rem;
+            border: white solid 2px;
+            border-radius: 70px;
+
+        }
+
+        .pargraph2 {
+            font-size: 23px;
+            font-style: italic;
+        }
+        .pargraph1{
+            font-size: 40px;
+            margin-left: 150px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+
+<body>
+
+    <nav class="navar">
+        <div class="logo">
+            <img src="C:\Users\Amit\Pictures\images.png"></img>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Review</a></li>
+        </ul>
+        </div>
+        <div class="rightnav">
+            <input type="text" name="search" placeholder="Search items">
+            <button class="btn_first" value="submit">submit</button>
+
+        </div>
+    </nav>
+    <div class="background secound ">
+        <div class="secoundleft">
+            <h1>I am Amit Sharma</h1>
+            <p class="text_small">I am a web developer in collage poddar internation.This website can use of education
+                in the students </p>
+            <div class="button2">
+                <button class="btn_secound" value="Contact">Contact</button>
+                <button class="btn_third" value="About">About</button>
+            </div>
+        </div>
+
+        <div class="secoundimg">
+            <img src="C:\Users\Amit\Pictures\OIP.jpeg"></img>
+        </div>
+    </div>
+    <section class="secoundpara">
+        <div class="para">
+            <h2 class="pargraph1"> Basics of computers</h2>
+            <p class="pargraph2">
+                A computer is an electronic machine that can receive, process, store, and output data.
+                It operates under the control of programs, which are sets of instructions written in various programming
+                languages.
+                Computers are used in almost every field today, including education, medicine, business, and
+                entertainment.
+                They can perform millions of calculations per second, making them essential for tasks that require speed
+                and accuracy.
+                Modern computers come in many forms, from large desktop systems to portable laptops and smartphones,
+                all designed to make our lives easier and more efficient.
+                Would you like this in simpler language or translated into another language?
+            </p>
+        </div>
+        <div class="thirdimg">
+            <img src="C:\Users\Amit\Pictures\OIP (3).jpeg"></img>
+        </div>
+    </section>
+    <section class="secoundpararight">
+        <div class="para2">
+            <h2 class="pargraph1"> Basics of computers</h2>
+            <p class="pargraph2">
+                A computer is an electronic machine that can receive, process, store, and output data.
+                It operates under the control of programs, which are sets of instructions written in various programming
+                languages.
+                Computers are used in almost every field today, including education, medicine, business, and
+                entertainment.
+                They can perform millions of calculations per second, making them essential for tasks that require speed
+                and accuracy.
+                Modern computers come in many forms, from large desktop systems to portable laptops and smartphones,
+                all designed to make our lives easier and more efficient.
+                Would you like this in simpler language or translated into another language?
+            </p>
+        </div>
+        <div class="thirdimg">
+            <img src="C:\Users\Amit\Pictures\OIP (3).jpeg"></img>
+        </div>
+    </section>
+    <section class="secoundpara">
+        <div class="para">
+            <h2 class="pargraph1"> Basics of computers</h2>
+            <p class="pargraph2">
+                A computer is an electronic machine that can receive, process, store, and output data.
+                It operates under the control of programs, which are sets of instructions written in various programming
+                languages.
+                Computers are used in almost every field today, including education, medicine, business, and
+                entertainment.
+                They can perform millions of calculations per second, making them essential for tasks that require speed
+                and accuracy.
+                Modern computers come in many forms, from large desktop systems to portable laptops and smartphones,
+                all designed to make our lives easier and more efficient.
+                Would you like this in simpler language or translated into another language?
+            </p>
+        </div>
+        <div class="thirdimg">
+            <img src="C:\Users\Amit\Pictures\OIP (3).jpeg"></img>
+        </div>
+    </section>
+</body>
+</head>
+
+</html
